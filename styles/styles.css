@@ -1,0 +1,51 @@
+/*add font to file */
+@font-face{
+	font-family: Square;
+	src: url(square-721-extended-bt.ttf);
+}
+/*tag edits*/
+body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("/home/aero/Desktop/AeroLab/images/f22raptors.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+header{
+	margin: 0 auto;
+	height: 40px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	overflow: hidden;
+}
+
+/* id edits*/
+#home-logo{
+	float:left;
+	height: 100%;
+	width: 225px;
+}
+#aerolab-logo{
+ margin: 8px;
+ height: 24px;
+}
+#header-navigation {
+	float: right;
+	margin: 10px 35px;
+}
+#header-navigation a{
+	margin-right: 20px;
+	color: white;
+	opacity: 1.0;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+}
+#header-navigation a:hover{
+	color: #ffb200;
+	color: #00ffe1;
+	color: #00aeff;
+}
