@@ -11,12 +11,13 @@ body{
 	background-color: #0090ff;
 	background-color: #006eb7;
 	/*
-	background-image: url("/home/aero/Desktop/aerolab-website/images/sky-sunny-clouds-cloudy.jpg");
+	background-image: url("../images/sky.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	*/
+
 }
 main{
 	overflow: hidden;
@@ -73,14 +74,57 @@ main{
 	height: 75px;
 	padding: 5px;
 }
-#flight-info{
-	height: 450px;
+#home-picture{
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mtn-canvas{
 	width: 100%;
-	background-image: url("/home/aero/Desktop/aerolab-website/images/f22raptors.jpg");
+}
+#mountain-range{
+	background-color: #006eb7;
+}
+#flight-info{
+	height: 512px;
+	width: 100%;
+	background-image: url("../images/f22raptors.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+}
+#flight-title{
+	display: block;
+	height: 50px;
+	width: 50%;
+	margin: 0px auto;
+	padding: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 36px;
+	text-align: center;
+}
+#school-info{
+	display: block;
+	background-color: rgba(219, 219, 219, 0.75);
+	height: 262px;
+	width: 55%;
+	margin: 0px auto 50px auto;
+	padding: 25px 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 24pt;
+	text-align: center;
+	overflow: hidden;
+}
+#aggie-air{
+	width: 50%;
+	float: left;
+}
+#flight-school{
+	width: 50%;
+	float: right;
 }
 
 /* class edits */
@@ -89,7 +133,27 @@ main{
 	height: 1000px;
 	width: 85%;
 	margin: 50px auto;
-	/*background-color: rgba(255, 255, 255, .75);*/
+	background-color: rgba(255, 255, 255, .75);
 	text-align: center;
 	overflow: hidden;
+}
+.learn-more{
+	margin: 0px auto;
+	padding-top: 20px;
+}
+.learn-more button:hover{
+	background-color: #006eb7;
+	box-shadow: 2px 2px 2px #888888;
+}
+.learn-more-btn{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 14pt;
+	background-color: #2d7eff;
+	outline: none;
+	border: solid;
+	border-radius: 5px;
+	border-color: rgba(255,255,255,0.0);
+	height: 50px;
+	width: 150px;
 }
