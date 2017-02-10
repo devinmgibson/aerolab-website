@@ -5,10 +5,6 @@
 }
 /*tag edits*/
 body{
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #0090ff;
 	background-color: #006eb7;
 	/*
 	background-image: url("../images/sky.jpg");
@@ -23,46 +19,48 @@ main{
 	overflow: hidden;
 }
 
-/* id edits
-   header
-*/
 #header{
 	display: block;
-	height: 40px;
-	width: 100%;
+	height: 50px;
 	background-color: rgba(0, 0, 0, 0.5);
-	overflow: hidden;
+
 }
-#home-logo{
-	float:left;
-	height: 100%;
-	width: 225px;
-}
-#aerolab-logo{
- margin: 8px;
- height: 24px;
- opacity: 1.0;
-}
-#header-navigation {
-	float: right;
-	margin: 10px 35px;
-}
-#header-navigation a{
-	margin-right: 20px;
-	padding-bottom: 9px;
-	color: white;
-	opacity: 1.0;
-	font-family: 'Roboto Condensed', sans-serif;
-	text-decoration: none;
-}
-#header-navigation a:hover{
-	/*color: #00aeff;*/
-	color: #ffaa00;
-	border-bottom: 2px solid #ffaa00
-}
-#navlink-icon{
-	border-bottom: 2px solid white;
-}
+	.navbar-logo {
+		float: left;
+		height: 50px;
+		padding: 12px;
+	}
+	#navbar-items {
+		margin: 14px;
+		list-style-type: none;
+	}
+	#navbar-items a{
+		height: 50px;
+		margin-right: 10px;
+		padding: 5px 5px 15px 5px;
+		color: white;
+		opacity: 1.0;
+		font-family: 'Roboto Condensed', sans-serif;
+		text-decoration: none;
+	}
+	#navbar-items a:hover{
+		color: #ffaa00;
+		border-bottom: 2px solid #ffaa00
+	}
+	#navbar-item-selected{
+		border-bottom: 2px solid white;
+	}
+	#nav-button {
+		border-width: thin;
+		border-color: #ddd;
+	}
+	#nav-button:hover {
+		background-color: #444;
+	}
+		.bar-color {
+			background-color: #ddd;
+		}
+
 
 /* styles of divs in index.html main */
 #welcome{
